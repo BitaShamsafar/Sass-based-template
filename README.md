@@ -1,2 +1,3 @@
 # Sass-based-template
-Sass / fully responsive / Js
+
+Technologis : HTML5 - SASS - RESPONSIVE - JAVASCRIPT 
