@@ -1,0 +1,29 @@
+@mixin padding($top : 1rem , $right : 1rem , $btm : 1rem , $left : 1rem){
+    padding: {
+        top : $top;
+        right: $right;
+        bottom: $btm;
+        left: $left;
+    }
+}
+
+@mixin btn-style {                        
+    
+    border: 1px solid $pink;
+    background-color: $pink;
+    color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: all .5s ease;
+
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background: none;
+        border: 1px solid $pink;
+        color: $pink;
+    }
+    
+}

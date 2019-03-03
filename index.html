@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul class="submenu">
+
+                <a href="#top">
+                  <li>Home</li>  
+                </a>
+                <a href="#Skills">
+                    <li>Skills</li>  
+                </a>
+                <a href="#Portfolio">
+                    <li>Portfolio</li>  
+                </a>
+                <a href="#About">
+                    <li>About</li>  
+                </a>
+                <a href="#Blog">
+                    <li>Blog</li>  
+                </a>
+                <a href="#Contact">
+                    <li>Contact us</li>  
+                </a>
+
+                
+            </ul>
+        </div>
+        <a href="" name="top"></a>
+        <nav>
+            <div class="cntct-btn">
+                <div class="menu-wrap">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <button href="#">Contact</button>
+            </div>
+            
+        </nav>
+        <div class="txt-wrapp">
+            <h4>
+                Welcome !
+            </h4>
+            <h1>
+                Creative Design
+            </h1>
+            <a href="#Skills" id="skills-icon"><i class="fas fa-arrow-down"></i></a>
+            
+        </div>
+    </header>
+    
+    <div class="skill-wrap">
+        <a name="Skills"></a> 
+        <h2 class="skill-h">Our Skills</h2>
+        <div class="skill">
+            <div class="number">97</div>
+            <span>CSS</span>
+        </div>
+        
+        <div class="skill">
+            <div class="number">88</div>
+            <span>HTML</span>
+        </div>
+        <div class="skill">
+            <div class="number">94</div>
+            <span>JAVASCRIPT</span>
+        </div>
+        <div class="skill">
+            <div class="number">85</div>
+            <span>PHP</span>
+        </div>
+        
+        <div class="skill-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ducimus omnis voluptate, perferendis deleniti odio nisi delectus deserunt culpa officia et, in architecto quasi molestias sequi mollitia minus placeat eos! </div>
+    </div>
+
+    <div class="portfolio">
+        <a name="Portfolio"></a>
+        <h2>Portfolio</h2>
+        <div class="item-wrapper">
+                <div class="tab">
+                    <span class="dscrp">Caption Goes Here</span>
+                    <img src="img/01.jpg">
+                </div>
+                <div class="tab">
+                    <span class="dscrp">Caption Goes Here</span>
+                    <img src="img/02.jpg">
+                </div>
+                <div class="tab">
+                    <span class="dscrp">Caption Goes Here</span>
+                    <img src="img/03.jpg">
+                </div>
+                <div class="tab">
+                    <span class="dscrp">Caption Goes Here</span>
+                    <img src="img/04.jpg">
+                </div>
+                <div class="tab">
+                    <span class="dscrp">Caption Goes Here</span>
+                    <img src="img/05.jpg">
+                </div>
+                <div class="tab">
+                    <span class="dscrp">Caption Goes Here</span>
+                    <img src="img/06.jpg">
+                </div>
+
+        </div>
+        <div class="portfolio-btn">
+            <button  id="previos" onclick="caresoulReverse()"></button>
+            <button  id="next" onclick="caresoul()"></button>
+        </div>
+        <a name="About"></a> 
+    </div>
+    
+    <div class="co-operate">
+        
+        <h2>WE DESIGN FOR ELEGANTS </h2>
+        <img src="img/co-operate.jpg" alt="co operating companies">
+
+    </div>
+    <div class="enclose">Contact me via Bita.Shamsafar@hotmail.com</div>
+    <div class="blog">
+        <a name="Blog"></a> 
+        <div class="mitte"> 
+            <div class="blog-wrapp">
+                <img src="img/blog01.jpg" alt="blog Post">
+                <img src="img/blog02.jpg" alt="blog Post">
+                <img src="img/blog03.jpg" alt="blog Post">
+                <button class="menu-btn">Discover More...</button>
+            </div>
+            
+        </div>
+        <div class="up">
+            <h1>Let's blog</h1>
+            <h5> We love clean design and advanced digital solutions.</h5>
+        </div>
+        <div class="down"></div>
+        
+    </div>
+    <div class="contact-us">
+            <a name="Contact"></a> 
+            <h2>WE ARE WATING FOR YOU'R MESSAGE</h2>
+            <form>
+                <div class="flex">
+                     <div class="form-dtl">
+                        <label for="first-name">First Name</label>
+                        <input required type="text" id="first-name" placeholder="Enter your first name here">
+                    </div>
+                    <div  class="form-dtl">
+                        <label for="last-name">Last Name</label>
+                        <input required type="text" id="last-name" placeholder="Enter your last name here">
+                    </div>
+                    <div  class="form-dtl">
+                        <label for="email">Email</label>
+                        <input required type="email" id="email" placeholder="Enter your email here">
+                    </div>
+                    <div  class="form-dtl">    
+                        <label for="phone">Phone</label>
+                        <input required type="tel" id="phone" placeholder="Enter your phone here">
+                    </div>
+                   
+                    <div  class="form-dtl">
+                        <label for="message">Message</label>
+                        <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+                    </div>
+                    <div class="form-dtl"><button type="submit">Submit</button></div>
+                     
+                </div>
+            </form>
+    </div>
+    <div class="footer"></div>
+    <a href="#top"><div class="Top"><i class="fas fa-arrow-up"></i></div></a>
+    <script src="js/main.js"></script>
+      
+    
+</body>
+</html>
